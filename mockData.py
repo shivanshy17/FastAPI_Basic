@@ -14,7 +14,7 @@ products=[
     {
         "id":8,
         "title":"protein bar",
-        "price":117,
+        "price":116,
         "count":100
     }
 ]
