@@ -68,5 +68,6 @@ def delete_product(product_id:int):
 
 ## How to call different HTTO Methods. -- Any TOOl?
 ## how to validate data. - DTOS(Data Transfer Objects) - Pydantic Models
+## I will be completing authentication part by either 12-02-26 night or 13-05-26.
 
 
