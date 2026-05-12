@@ -10,5 +10,11 @@ products=[
         "title":"laptop",
         "price":2000,
         "count":5
+    },
+    {
+        "id":8,
+        "title":"protein bar",
+        "price":117,
+        "count":100
     }
 ]
