@@ -51,7 +51,7 @@ def update_product(product_data:ProductDTO, product_id:int):
     for index,oneProduct in enumerate(products):
        if(oneProduct.get("id")==product_id):
         products[index]=product_data.model_dump()
-        return {"status": "Product updatd succesfully!","product":product_data}
+        return {"status": "Product updated succesfully!","product":product_data}
 
 
     return {"error":"product not found"}
