@@ -37,7 +37,7 @@ def greet_user(request:Request):
 
     return {"greet": f"Hello, welcome {query_params.get('name')} to my server, You are {query_params.get('age')} years old."}
 
-    ## different types pf HTTP Mehods
+    ## different types of HTTP Mehods
 
 @app.post("/create_product")
 def create_product(product_data:ProductDTO):
