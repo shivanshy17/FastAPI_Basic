@@ -56,7 +56,7 @@ def update_product(product_data:ProductDTO, product_id:int):
 
     return {"error":"product not found"}
 
-
+# Delete product function
 @app.delete("/delete_product/{product_id}")
 def delete_product(product_id:int):
     for index,oneProduct in enumerate(products):
