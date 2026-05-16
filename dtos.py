@@ -5,3 +5,4 @@ class ProductDTO(BaseModel):
     title:str
     price:int=0
     count:int=0
+    brand:str
