@@ -17,7 +17,7 @@ def get_products():
 ##Path parameter: fixed set of parameters can be passed in the url, and we can access those parameters in the function.
 @app.get("/product/{product_id}")
 def get_one_product(product_id: int):
-    #if product available with the id, return product, lese return error mesage.
+    #if product available with the id, return product, else return error mesage.
 
     for oneProduct in products:
         if oneProduct.get("id")==product_id:
