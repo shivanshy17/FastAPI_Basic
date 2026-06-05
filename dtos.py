@@ -6,3 +6,4 @@ class ProductDTO(BaseModel):
     price:int=0
     count:int=0
     brand:str
+    distributer:str
