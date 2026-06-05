@@ -16,5 +16,11 @@ products=[
         "title":"protein bar",
         "price":116,
         "count":100
+    },
+    {
+        "id":10,
+        "title":"protein powder",
+        "price":1160,
+        "count":101
     }
 ]
